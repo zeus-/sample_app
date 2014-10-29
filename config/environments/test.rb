@@ -36,9 +36,4 @@ SampleApp::Application.configure do
 
   #chapter 7 v2 rails 4 bcrypt bullcrap
     ActiveModel::SecurePassword.min_cost = true
-
-  # Force all access to the app over SSL, use Strict-Transport-Security,
-  # and use secure cookies.
-    config.force_ssl = true
-
 end
